@@ -1,0 +1,52 @@
+/* Media Queries */
+@media screen and (min-width: 1200px) {
+}
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+    flex-wrap: wrap;
+    
+  }
+}
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 750px;
+    flex-wrap: wrap;
+    
+  }
+}
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .column_left,
+  .column_right {
+    width: 100%;
+  }
+
+  .hello-block {
+    padding: 15px 0;
+  }
+}
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+  .course-info {
+    flex-direction: column;
+  }
+
+  .course-info__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .hello-block {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+}
